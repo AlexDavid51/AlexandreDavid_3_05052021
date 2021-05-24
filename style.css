@@ -1,5 +1,201 @@
-body {
-  background-color: aliceblue;
+@media screen and (min-width: 375px) and (max-width: 600px) {
+  body {
+    width: 100%;
+  }
+
+  header {
+    display: flex;
+    flex-direction: column;
+  }
+
+  header img {
+    width: 45%;
+    padding-left: 115px;
+    margin-top: 5px;
+  }
+
+  i.fas.fa-map-marker-alt {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  header {
+    width: 100%;
+  }
+
+  #head {
+    padding-left: 20px;
+    margin-bottom: 20px;
+  }
+
+  header figure {
+    background-color: darkgray;
+    width: 68%;
+    padding-left: 115px;
+    margin: 0px;
+  }
+
+  .head2 {
+    background-color: lightgrey;
+    height: 250px;
+  }
+
+  .head2 h1 {
+    padding-left: 50px;
+  }
+
+  .head2 button {
+    margin-left: 50px;
+    height: 50px;
+    width: 80%;
+    border-radius: 50px;
+    background-color: lightskyblue;
+    border-color: lightskyblue;
+  }
+
+  nav {
+    display: flex;
+    flex-direction: column;
+  }
+
+  nav i {
+    padding-top: 20px;
+  }
+
+  nav p {
+    color: white;
+    border: 1px solid transparent;
+    border-radius: 50%;
+    background-color: blueviolet;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+  }
+
+  .navbutton {
+    display: flex;
+    width: 95%;
+    border: 3px solid transparent;
+    background-color: #f2f2f2;
+    border-radius: 30px;
+    margin-top: 15px;
+    box-shadow: 0px 3px lightgrey;
+  }
+
+  .navitem {
+    background-color: transparent;
+    border-color: transparent;
+    font-size: large;
+    font-weight: bold;
+    padding-left: 15px;
+  }
+
+  nav .fas {
+    padding-left: 15px;
+  }
+
+  .restaurant {
+    padding-top: 20px;
+    background-color: #f2f2f2;
+    height: 100%;
+    margin-top: 50px;
+    border: 1px solid transparent;
+  }
+
+  .restaurant figure {
+    margin: 30px 16px 30px 16px;
+  }
+
+  .restaurant img {
+    border-radius: 30px 30px 0px 0px;
+  }
+
+  .restaurant figcaption {
+    background-color: white;
+    border: 3px solid transparent;
+    border-radius: 0px 0px 30px 30px;
+  }
+
+  .captionitem {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  figcaption .far {
+    padding-right: 15px;
+    padding-top: 30px;
+    font-size: 30px;
+  }
+
+  h2 {
+    color: black;
+    padding-left: 15px;
+  }
+
+  h3 {
+    color: black;
+  }
+
+  p {
+    color: black;
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  img {
+    width: 100%;
+    height: 100%;
+  }
+
+  footer {
+    background-color: black;
+  }
+
+  footer img {
+    filter: brightness(100);
+    width: 30%;
+  }
+
+  ul {
+    color: white;
+  }
+
+  li {
+    margin-bottom: 10px;
+  }
+
+  .navbutton:hover {
+    background-color: aliceblue;
+    box-shadow: 5px lightslategray;
+  }
+
+  nav .fas:hover {
+    color: blueviolet;
+  }
+
+  figcaption .far:hover {
+    animation-name: like;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+  }
+}
+@keyframes like {
+  100% {
+    font-weight: bold;
+    transition: all 1s linear 5s;
+    color: red;
+  }
+}
+@keyframes loading {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    display: initial;
+    transform: rotate(360deg);
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

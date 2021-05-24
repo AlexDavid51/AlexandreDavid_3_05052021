@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="./style.css" />
     <script src="https://kit.fontawesome.com/38b1e4c1fd.js" crossorigin="anonymous"></script>
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
@@ -11,42 +11,62 @@
 </head>
 <body>
     <header>
+        
         <img src=C:/Users/Luciu/Documents/GitHub/AlexandreDavid_3_05052021/images/logo/ohmyfood@2x.svg alt="logo"/>
-        <i class="fas fa-map-marker-alt">Paris,Belleville</i>
-        <h1>Réservez le menu qui vous convient</h1>
+        <figure>
+        <i class="fas fa-map-marker-alt"><span id="head" >Paris, Belleville</span></i>
+        </figure>
+        <span class="head2">
+        <h1>Réservez le menu 
+            qui vous convient</h1>
         <p>Découvrez des restaurants d'exception,sélectionnés par nos soins.</p>
         <button class="favorite styled" type="button">
             Explorer nos restaurants.
         </button>
+        </span>
 
     </header>
     <nav>
-        <i class="fas fa-mobile-alt">
-        <button class="favorite styled" type="button">
-            Choissisez votre restaurant
-        </button></i>
 
-        <i class="fas fa-list-ul">
-        <button class="favorite styled" type="button">
-            Composez votre menu
-        </button></i>
+        <h2>Fonctionnement</h2>
 
         
-        <i class="fas fa-store">
-        <button class="favorite styled" type="button">
+        <span class="navbutton">
+        <p>1</p>
+        <i class="fas fa-mobile-alt"></i>
+        <button class="navitem" type="button">
+            Choissisez votre restaurant
+        </button>
+        </span>
+
+        <span class="navbutton">
+        <p>2</p>
+        <i class="fas fa-list-ul"></i>
+        <button class="navitem" type="button">
+            Composez votre menu
+        </button>
+        </span>
+
+        <span class="navbutton">
+        <p> 3 </p>
+        <i class="fas fa-store"></i>
+        <button class="navitem" type="button">
             Dégustez au restaurant
-        </button></i>
+        </button>
+        </span>
 
 
     </nav>
-    <section>
+    <section class="restaurant">
         <h2>Restaurants</h2>
 
         <a href="C:/Users/Luciu/Documents/GitHub/AlexandreDavid_3_05052021/menu1.html">
             <figure>    
                 <img src="C:/Users/Luciu/Documents/GitHub/AlexandreDavid_3_05052021/images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg" alt="La palette du goût" >  
-                <figcaption>    
+                <figcaption>
+                    <span class="captionitem"> 
                     <h3>La palette du goût</h3><i class="far fa-heart"></i>
+                    </span> 
                     <p>Ménilmontant</p>
                 </figcaption>
             </figure>
@@ -56,8 +76,10 @@
             <a href="">
                 <figure>    
                     <img src="C:/Users/Luciu/Documents/GitHub/AlexandreDavid_3_05052021/images/restaurants/louis-hansel-shotsoflouis-qNBGVyOCY8Q-unsplash.jpg" alt="La note enchantée" >  
-                    <figcaption>    
+                    <figcaption>
+                        <span class="captionitem">   
                         <h3>La Note enchantée</h3><i class="far fa-heart"></i>
+                        </span> 
                         <p>Charonne</p>
                     </figcaption>
                 </figure>
@@ -66,8 +88,10 @@
         <a href="">
             <figure>    
                 <img src="C:/Users/Luciu/Documents/GitHub/AlexandreDavid_3_05052021/images/restaurants/stil-u2Lp8tXIcjw-unsplash.jpg" alt="A la française" >  
-                <figcaption>    
+                <figcaption>
+                    <span class="captionitem">   
                     <h3>A la française</h3><i class="far fa-heart"></i>
+                    </span>
                     <p>Cité rouge</p>
                 </figcaption>
             </figure>
@@ -76,8 +100,10 @@
             <a href="">
                 <figure>    
                     <img src="C:/Users/Luciu/Documents/GitHub/AlexandreDavid_3_05052021/images/restaurants/toa-heftiba-DQKerTsQwi0-unsplash.jpg" alt="Le Délice des sens" >  
-                    <figcaption>    
+                    <figcaption>
+                        <span class="captionitem"> 
                         <h3>Le Délice des sens</h3><i class="far fa-heart"></i>
+                    </span>
                         <p>Folie Méricourt</p>
                     </figcaption>
                 </figure>
