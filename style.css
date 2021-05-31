@@ -177,7 +177,7 @@
 
   figcaption .far:hover {
     animation-name: like;
-    animation-duration: 3s;
+    animation-duration: 5s;
     animation-iteration-count: infinite;
   }
 }
