@@ -2,8 +2,8 @@
 {
     100%{
 
-        font-weight: bold;
-        transition: all 1s linear 5s;
+        from { transform: scaleX(0); }
+        to   { transform: scaleX(1); }
         color: aliceblue;
         
 

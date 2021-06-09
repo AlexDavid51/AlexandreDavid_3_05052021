@@ -1,9 +1,9 @@
 {"version":3,
     "sourceRoot":"",
     "sources":[
-        "sass/Test/_index.scss",
-        "sass/Test/_animation.scss",
-        "sass/Test/_menustyle.scss"
+        "./sass/_index.scss",
+        "./sass/_animation.scss",
+        "./sass/_menustyle.scss"
         ],
     "names":[],
     "mappings":"AAAA;EAEI;IAEG;;;EAIH;IAEI;IACA;;;EAEJ;IAEI;IACA;IACA;;;EAGJ;IAGI;IACA;;;EAGJ;IAEI;;;EAGJ;IAEI;IACA;;;EAGJ;IAEI;IACA;IACA;IACA;;;EAIJ;IAEI;IACA;;;EAIJ;IAEI;;;EAGJ;IAEI;IACA;IACA;IACA;IACA;IACA;;;EAGJ;IAEI;IACA;;;EAGJ;IAEI;;;EAGJ;IAEI;IACA;IACA;IACA;IACA;IA0CA;IACA;;;EAGJ;IAEI;IACA;IACA;IACA;IACA;IACA;IACA;;;EAKJ;IAEI;IACA;IACA;IACA;IACA;;;EAGJ;IAEI;;;EAGJ;IAEI;IACA;IACA;IACA;IACA;;;EAGJ;IAEI;;;EAGJ;IAEI;;;EAGJ;IAEI;IACA;IACA;;;EAGJ;IAEI;IACA;;;EAGJ;IAGI;IACA;IACA;;;EAKJ;IAEI;IACA;;;EAKJ;IAEI;;;EAGJ;IAEI;;;EAGJ;IAEI;;;EAIJ;IAEI;IACA;;;EAKJ;IAEI;;;EAGJ;IAEI;IACA;;;EAGJ;IAEI;;;EAIJ;IAEI;;;EAGJ;IAEI;IACA;;;EAGJ;IAEI;;;EAIJ;IAGI;IACA;IACA;;;ACvOR;EAEI;IAEI;IACA;IACA;;;AAUR;EAGI;IACI;;EAGJ;IAEI;IACA",
