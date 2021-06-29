@@ -1,11 +1,125 @@
 @media screen and (min-width: 375px) and (max-width: 600px) {
-  body {
+  .Menu {
     width: 100%;
+    max-width: 100%;
+    background-color: whitesmoke;
+    margin-bottom: 0px;
+    margin-top: 0px;
+  }
+
+  .Menu h2 {
+    font-size: large;
+    font-weight: normal;
+    border-bottom: 3px solid;
+    border-color: #99E2D0;
+    width: 8%;
+  }
+
+  .headermenu {
+    background-color: white;
+  }
+
+  .headermenu img {
+    width: 45%;
+    padding-left: 115px;
+    margin-top: 5px;
+  }
+
+  .menusection {
+    background-color: whitesmoke;
+  }
+
+  .menusection img {
+    width: 100%;
+  }
+
+  .menusection .title {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  i.far.fa-heart {
+    padding-right: 50px;
+    padding-top: 30px;
+    padding-bottom: 15px;
+    font-size: x-large;
+    position: relative;
+    bottom: 5px;
+  }
+
+  .menusection article {
+    background-color: white;
+    border-radius: 15px;
+    margin-bottom: 15px;
+    padding-top: 0px;
+    padding-left: 15px;
+    padding-bottom: 15px;
+    box-shadow: 0px 3px #99E2D0;
+  }
+
+  .menusection p {
+    font-weight: bold;
+    font-size: large;
+    position: relative;
+    top: 15px;
+  }
+
+  .price {
+    font-weight: bold;
+    display: flex;
+    flex-direction: row-reverse;
+    padding-right: 30px;
+  }
+
+  i.far.fa-check-circle {
+    display: none;
+  }
+
+  i.far.fa-check-circle:hover {
+    display: initial;
+  }
+
+  .menusection button {
+    margin-left: 70px;
+    margin-top: 20px;
+    margin-bottom: 60px;
+    height: 50px;
+    width: 60%;
+    border-radius: 50px;
+    background-color: #FF79DA;
+    border-color: #FF79DA;
+    color: white;
+  }
+
+  footer {
+    background-color: black;
+    height: 100%;
+  }
+
+  footer img {
+    filter: brightness(100);
+    width: 30%;
+  }
+
+  ul {
+    color: white;
+  }
+
+  li {
+    margin-bottom: 10px;
+  }
+}
+@media screen and (min-width: 375px) and (max-width: 600px) {
+  body {
+    max-width: 100%;
+    width: 100%;
+    background-color: transparent;
   }
 
   header {
     display: flex;
     flex-direction: column;
+    width: 100%;
   }
 
   header img {
@@ -19,38 +133,38 @@
     margin-bottom: 20px;
   }
 
-  header {
-    width: 100%;
-  }
-
   #head {
     padding-left: 20px;
     margin-bottom: 20px;
   }
 
   header figure {
-    background-color: darkgray;
-    width: 68%;
+    background-color: #99E2D0;
+    width: 100%;
     padding-left: 115px;
     margin: 0px;
   }
 
   .head2 {
-    background-color: lightgrey;
+    background-color: whitesmoke;
     height: 250px;
   }
 
   .head2 h1 {
     padding-left: 50px;
+    font-size: x-large;
   }
 
   .head2 button {
-    margin-left: 50px;
+    margin-left: 70px;
     height: 50px;
-    width: 80%;
+    width: 60%;
     border-radius: 50px;
-    background-color: lightskyblue;
-    border-color: lightskyblue;
+    background-color: #FF79DA;
+    border-color: #FF79DA;
+    margin-top: 15px;
+    color: white;
+    box-shadow: 0px 5px #99E2D0;
   }
 
   nav {
@@ -60,24 +174,29 @@
 
   nav i {
     padding-top: 20px;
+    color: #99E2D0;
   }
 
   nav p {
     color: white;
     border: 1px solid transparent;
     border-radius: 50%;
-    background-color: blueviolet;
+    background-color: #9356DC;
     width: 20px;
     height: 20px;
     text-align: center;
+    position: relative;
+    right: 10px;
+    padding-top: 3px;
   }
 
   .navbutton {
     display: flex;
-    width: 95%;
+    width: 90%;
     border: 3px solid transparent;
-    background-color: #f2f2f2;
-    border-radius: 30px;
+    background-color: whitesmoke;
+    border-radius: 15px;
+    margin-left: 20px;
     margin-top: 15px;
     box-shadow: 0px 3px lightgrey;
   }
@@ -96,7 +215,7 @@
 
   .restaurant {
     padding-top: 20px;
-    background-color: #f2f2f2;
+    background-color: whitesmoke;
     height: 100%;
     margin-top: 50px;
     border: 1px solid transparent;
@@ -108,12 +227,19 @@
 
   .restaurant img {
     border-radius: 30px 30px 0px 0px;
+    height: 230px;
   }
 
   .restaurant figcaption {
     background-color: white;
     border: 3px solid transparent;
     border-radius: 0px 0px 30px 30px;
+    height: 85px;
+  }
+
+  .restaurant p {
+    position: relative;
+    bottom: 35px;
   }
 
   .captionitem {
@@ -121,10 +247,11 @@
     justify-content: space-between;
   }
 
-  figcaption .far {
-    padding-right: 15px;
+  .restaurant .far.fa-heart {
+    padding-right: 30px;
     padding-top: 30px;
     font-size: 30px;
+    padding-bottom: 0px;
   }
 
   h2 {
@@ -138,6 +265,8 @@
 
   p {
     color: black;
+    font-size: initial;
+    font-weight: initial;
   }
 
   a {
@@ -146,7 +275,6 @@
 
   img {
     width: 100%;
-    height: 100%;
   }
 
   footer {
@@ -171,21 +299,16 @@
     box-shadow: 5px lightslategray;
   }
 
-  nav .fas:hover {
-    color: blueviolet;
+  nav .i:hover {
+    color: #9356DC;
   }
 
-  figcaption .far:hover {
-    animation-name: like;
-    animation-duration: 5s;
-    animation-iteration-count: infinite;
-  }
-}
-@keyframes like {
-  100% {
-    font-weight: bold;
-    transition: all 1s linear 5s;
-    color: red;
+  .far.fa-heart:hover {
+    background: linear-gradient(25deg, #FF79DA, #9356DC);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    font-weight: 800;
   }
 }
 @keyframes loading {
