@@ -109,11 +109,91 @@
     margin-bottom: 10px;
   }
 
-  article {
+  .article1 {
+    opacity: 0;
+    animation-fill-mode: forwards;
     animation-name: fadeIn;
     animation-duration: 3s;
   }
+
+  .article2 {
+    opacity: 0;
+    animation-fill-mode: forwards;
+    animation-name: fadeIn;
+    animation-delay: 1s;
+    animation-duration: 3s;
+  }
+
+  .article3 {
+    opacity: 0;
+    animation-fill-mode: forwards;
+    animation-name: fadeIn;
+    animation-delay: 2s;
+    animation-duration: 3s;
+  }
+
+  .article4 {
+    opacity: 0;
+    animation-fill-mode: forwards;
+    animation-name: fadeIn;
+    animation-delay: 3s;
+    animation-duration: 3s;
+  }
+
+  .article5 {
+    opacity: 0;
+    animation-fill-mode: forwards;
+    animation-name: fadeIn;
+    animation-delay: 4s;
+    animation-duration: 3s;
+  }
+
+  .article6 {
+    opacity: 0;
+    animation-fill-mode: forwards;
+    animation-name: fadeIn;
+    animation-delay: 5s;
+    animation-duration: 3s;
+  }
+
+  .article7 {
+    opacity: 0;
+    animation-fill-mode: forwards;
+    animation-name: fadeIn;
+    animation-delay: 6s;
+    animation-duration: 3s;
+  }
+
+  .article8 {
+    opacity: 0;
+    animation-fill-mode: forwards;
+    animation-name: fadeIn;
+    animation-delay: 7s;
+    animation-duration: 3s;
+  }
+
+  .article9 {
+    opacity: 0;
+    animation-fill-mode: forwards;
+    animation-name: fadeIn;
+    animation-delay: 8s;
+    animation-duration: 3s;
+  }
 }
+.loader {
+  position: absolute;
+  left: 7rem;
+  top: 15rem;
+  animation: loader 3s linear infinite;
+  animation-fill-mode: forwards;
+}
+
+.preloader {
+  background-color: black;
+  width: 100%;
+  height: 100%;
+}
+
 @media screen and (min-width: 375px) and (max-width: 600px) {
   body {
     max-width: 100%;
@@ -309,6 +389,8 @@
   }
 
   .far.fa-heart:hover {
+    animation-name: like;
+    animation-duration: 3s;
     background: linear-gradient(25deg, #FF79DA, #9356DC);
     background-clip: text;
     -webkit-background-clip: text;
@@ -316,21 +398,42 @@
     font-weight: 800;
   }
 }
-@keyframes loading {
+@keyframes loader {
   0% {
     transform: rotate(0deg);
+    opacity: 1;
+    width: 120px;
+    height: 120px;
+    border: 16px solid #f3f3f3;
+    border-radius: 50%;
+    border-top: 16px solid #3498db;
+    background-color: aliceblue;
   }
   100% {
-    display: initial;
     transform: rotate(360deg);
+    opacity: 1;
+    width: 120px;
+    height: 120px;
+    border: 16px solid #f3f3f3;
+    border-radius: 50%;
+    border-top: 16px solid #3498db;
+    background-color: aliceblue;
   }
 }
 @keyframes fadeIn {
-  0% {
+  from {
     opacity: 0;
   }
-  100% {
+  to {
     opacity: 1;
+  }
+}
+@keyframes like {
+  from {
+    transform: scaleY(0);
+  }
+  to {
+    transform: scaleY(1);
   }
 }
 

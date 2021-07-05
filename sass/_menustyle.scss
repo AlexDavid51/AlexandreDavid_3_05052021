@@ -53,6 +53,7 @@
 
     i.far.fa-heart
     {
+        
         padding-right: 50px;
         padding-top: 30px;
         padding-bottom: 15px;
@@ -137,8 +138,83 @@
         margin-bottom: 10px;
       }
 
-      article {
+      .article1 
+      {
+          opacity: 0;
+          animation-fill-mode: forwards;
           animation-name: fadeIn;
           animation-duration: 3s;
       }
+
+      .article2
+      { 
+        opacity: 0;
+        animation-fill-mode: forwards;
+        animation-name: fadeIn;
+        animation-delay: 1s;
+        animation-duration: 3s;
+    }
+
+    .article3
+    { 
+        opacity: 0;
+        animation-fill-mode: forwards;
+        animation-name: fadeIn;
+        animation-delay: 2s;
+        animation-duration: 3s;
+    }
+
+    .article4
+    { 
+        opacity: 0;
+        animation-fill-mode: forwards;
+        animation-name: fadeIn;
+        animation-delay: 3s;
+        animation-duration: 3s;
+    }
+
+    .article5
+    { 
+        opacity: 0;
+        animation-fill-mode: forwards;
+        animation-name: fadeIn;
+        animation-delay: 4s;
+        animation-duration: 3s;
+    }
+
+    .article6
+    { 
+        opacity: 0;
+        animation-fill-mode: forwards;
+        animation-name: fadeIn;
+        animation-delay: 5s;
+        animation-duration: 3s;
+    }
+
+    .article7
+    { 
+        opacity: 0;
+        animation-fill-mode: forwards;
+        animation-name: fadeIn;
+        animation-delay: 6s;
+        animation-duration: 3s;
+    }
+
+    .article8
+    { 
+        opacity: 0;
+        animation-fill-mode: forwards;
+        animation-name: fadeIn;
+        animation-delay: 7s;
+        animation-duration: 3s;
+    }
+
+    .article9
+    { 
+        opacity: 0;
+        animation-fill-mode: forwards;
+        animation-name: fadeIn;
+        animation-delay: 8s;
+        animation-duration: 3s;
+    }
 }
